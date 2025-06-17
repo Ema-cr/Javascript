@@ -28,10 +28,6 @@ La diferencia con HTML es que HTML define la estructura y contenido de la págin
 
 ---
 
-## ✅ Cambios recientes en el código
-
-Se han añadido varias funciones prácticas para profundizar en conceptos como:
-
 - Declaración y uso de variables (`let`, `const`, `null`, `boolean`, `string`, `number`).
 - Entradas del usuario con `prompt()` y ventanas emergentes con `alert()` y `confirm()`.
 - Uso de operadores matemáticos (`+`, `-`, `*`, `/`, `%`).
