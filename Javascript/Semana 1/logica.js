@@ -74,3 +74,53 @@ let palabrota = "AINO"
 for(const element in palabrota){
   console.log(`${element}: ${palabrota[element]}`);
 }
+
+for(const element of palabras_list){
+  console.log(`Hola ${palabras_list}`)
+}
+
+for(const element in colores){
+  console.log(element)
+}
+
+
+for(const element in listanumeros){
+  console.log(`${element}: ${listanumeros[element]}`);
+}
+
+let persona = {
+  nombre: "Manolo",
+  edad: 45,
+  ciudad: "Caracas"
+}
+
+console.log(persona.ciudad)
+
+
+let libro = {
+  autor: "Mauro",
+  genero: "ficcion",
+  paginas: 124
+}
+
+libro.paginas = 150
+console.log(libro.paginas)
+
+let auto = {
+  marca: "toyota",
+  año: 2004
+}
+console.log(auto)
+auto.color = "Negro";
+console.log(auto)
+
+
+let estudiante = {
+  genero: "masculino",
+  universidad: "Udea",
+  etnia: "indio"
+}
+
+for(const element in estudiante){
+  console.log(`${element}: ${estudiante [element]}`);
+}
